@@ -1,0 +1,50 @@
+body{
+    background-color:cadetblue
+}
+#input{
+    width: 200px;
+    height: 40px;
+    border: greenyellow;
+    background-color:greenyellow;
+    border-radius: 7px;
+    padding-left: 20px;
+}
+#input:focus{
+    background-color:yellow;
+}
+#form{
+    text-align: center;
+    margin-top: 280px;
+}
+#title{
+    color: skyblue;
+    font-size: 70px;
+}
+#select{
+    width: 120px;
+    height: 50px;
+    background-color: slategrey;
+    color: #ffffff;
+    padding-left: 25px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+}
+button{
+    background-color: teal;
+    border: teal;
+    width: 140px;
+    height: 50px;
+    color: #ffffff;
+    border-radius: 8px;
+}
+button:hover{
+    transition: 1s ease all;
+    background-color: transparent;
+    border: 4px solid teal;
+    color: teal;
+}
+p{
+    color: orange;
+    font-size: 30px;
+}
